@@ -14,7 +14,7 @@ const DetailsPage = () => {
     const [error, setError] = useState('')
     const [loading, setLoading] = useState(false);
 
-    const apiKey = "RMRLHHe5rQmM2ESuw4b4PcWHLaHDrTIi5wQu5foU";
+    const apiKey = "YOUR_API_KEY";
 
     const [asteroidData, setAsteroidData] = useState<AsteroidData | null>(null);
 
