@@ -15,7 +15,7 @@ const IndexPage = () => {
   const [asteroidId, setAsteroidId] = useState("");
   const [ids, setIds] = useState<number[]>([]);
 
-  const apiKey = "RMRLHHe5rQmM2ESuw4b4PcWHLaHDrTIi5wQu5foU";
+  const apiKey = "YOUR_API_KEY";
 
   const handleSubmit = () => {
     router.push(`/details/${asteroidId}`);
